@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 import java.util.Scanner;
 class Connection4{
 	public static void main(String args[]){
+		
 		try{
 			//Step1: Register the Driver
 			Driver d = new oracle.jdbc.driver.OracleDriver();
