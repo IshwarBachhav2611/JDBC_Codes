@@ -24,7 +24,7 @@ class Connection4{
 			PreparedStatement pstmt = con.prepareStatement("Create table Stud4(id number(3),Name varchar2(10))");
 			//pstmt.executeUpdate();
 
-			//Get input
+			//Get input from user
 			Scanner sc = new Scanner(System.in);
 			System.out.println("Want to Add items (1 for yes)/(2 for no): ");
 			int condition = sc.nextInt();
