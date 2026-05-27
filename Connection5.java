@@ -9,12 +9,12 @@ class Connection5 {
     public static void main(String args[]){
         
         try{
-            // step1 : Register Driver
+            // step1 : Register Driver 
             Driver d = new oracle.jdbc.driver.OracleDriver();
             DriverManager.registerDriver(d);
             System.out.println("Driver Registered...!");
 
-            //step2 : Get Connection
+            //step2 : Get Connection 
             Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521", "system", "ishwar2004");
             System.out.println("Connection Successfull...!");
 
